@@ -1,0 +1,1 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/849f9b4bca68438b8c6f0db166f1fc20)](https://www.codacy.com/app/adam1983/TaskManager?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Adam03179/TaskManager&amp;utm_campaign=Badge_Grade)

@@ -1,0 +1,19 @@
+DROP TABLE ENDED_TASKS;
+DROP TABLE TASKS;
+
+
+CREATE TABLE TASKS (
+  id                 INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  task               VARCHAR(64),
+  term               TIMESTAMP,
+  date_of_completion TIMESTAMP,
+  priority           ENUM ('lOW', 'HIGH')
+);
+
+CREATE TABLE ENDED_TASKS (
+  id                 INT NOT NULL PRIMARY KEY,
+  task               VARCHAR(64),
+  term               TIMESTAMP,
+  date_of_completion TIMESTAMP,
+  priority           ENUM ('lOW', 'HIGH')
+);
